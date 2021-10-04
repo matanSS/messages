@@ -1,6 +1,6 @@
-const verbArray = []
-const nounArray = []
-const adverbArray = []
+const verbArray = ['walk', 'talk']
+const nounArray = ['ball', 'boat']
+const adverbArray = ['filthy', 'poorly']
 
 const addWords = (word, array) => {
     array.push(word)
