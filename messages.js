@@ -1,4 +1,4 @@
-const verbArray = ['walk', 'talk']
+const verbArray = ['jump', 'talk']
 const nounArray = ['ball', 'boat']
 const adverbArray = ['filthy', 'poorly']
 
@@ -18,8 +18,6 @@ const randomGen = () => {
 
    console.log(`Be ware of ${randomVerb} ${randomNoun} ${randomAdverb}! `)
    
-
-
 
 }
 randomGen()
