@@ -12,8 +12,11 @@ const randomGen = () => {
    const randomnounIndex = Math.floor(Math.random * nounArray.length)
    const randomadverbIndex = Math.floor(Math.random * adverbArray.length)
 
-   const randomVerb = 
+   const randomVerb = verbArray[randomVerbIndex]
+   const randomNoun = nounArray[randomnounIndex]
+   const randomAdverb = adverbArray[randomadverbIndex]
 
+   console.log(`Be ware of ${randomVerb} ${randomNoun} ${randomAdverb}! `)
 
 
 
