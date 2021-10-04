@@ -1,6 +1,20 @@
-const mat = (x,y) => {
-    const outcome = x*y
-    return outcome
+const verbArray = []
+const nounArray = []
+const adverbArray = []
+
+const addWords = (word, array) => {
+    array.push(word)
 }
 
-console.log(mat(3,4)* 4)
+const randomGen = () => {
+
+   const randomVerbIndex = Math.floor(Math.random * verbArray.length)
+   const randomnounIndex = Math.floor(Math.random * nounArray.length)
+   const randomadverbIndex = Math.floor(Math.random * adverbArray.length)
+
+   const randomVerb = 
+
+
+
+
+}
