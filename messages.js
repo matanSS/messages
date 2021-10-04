@@ -8,9 +8,9 @@ const adverbArray = ['filthy', 'poorly']
 
 const randomGen = () => {
 
-   const randomVerbIndex = Math.floor(Math.random * verbArray.length)
-   const randomnounIndex = Math.floor(Math.random * nounArray.length)
-   const randomadverbIndex = Math.floor(Math.random * adverbArray.length)
+   const randomVerbIndex = Math.floor(Math.random() * verbArray.length)
+   const randomnounIndex = Math.floor(Math.random() * nounArray.length)
+   const randomadverbIndex = Math.floor(Math.random() * adverbArray.length)
 
    const randomVerb = verbArray[randomVerbIndex]
    const randomNoun = nounArray[randomnounIndex]
